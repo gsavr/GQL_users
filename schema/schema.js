@@ -14,7 +14,7 @@ const {
 const CompanyType = new GraphQLObjectType({
   name: "Company",
   fields: () => ({
-    //use arrow funcgtion to declare UserType in the file before it is used in the function - closure scope
+    //use arrow function to declare UserType in the file before it is used in the function - closure scope
     id: { type: GraphQLString },
     name: { type: GraphQLString },
     description: { type: GraphQLString },

@@ -2,7 +2,7 @@
 
 GraphQL course w/React
 
-##Tech used
+## Tech used
 
 1. express
 2. graphql
